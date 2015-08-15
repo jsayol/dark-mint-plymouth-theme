@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VERSION=0.1
-ARCHIVEDIR=dark-mint-plymouth-theme_v${VERSION}
+VERSION=0.1.1
+ARCHIVEDIR=dark-mint
 
 mkdir -p build
 rm -rf build/*
@@ -20,6 +20,6 @@ cp -r ../dialog/ ${ARCHIVEDIR}
 
 rm -f ${ARCHIVEDIR}/package.sh
 
-tar cvzf ${ARCHIVEDIR}.tar.gz ${ARCHIVEDIR}/
+tar cvzf dark-mint-plymouth-theme_v${VERSION}.tar.gz ${ARCHIVEDIR}/
 
 rm -rf ${ARCHIVEDIR}

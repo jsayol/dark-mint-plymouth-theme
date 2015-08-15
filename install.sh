@@ -10,7 +10,7 @@ INSTALLDIR=/lib/plymouth/themes
 
 printf "Copying '${THEME}' theme files..."
 mkdir -p ${INSTALLDIR}/${THEME}
-cp -fr * ${INSTALLDIR}/${THEME}
+cp -fr $( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/* ${INSTALLDIR}/${THEME}
 printf " DONE\n"
 
 printf "Installing '${THEME}' theme..."

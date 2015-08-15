@@ -7,9 +7,8 @@
 ## How to install the theme
 From the terminal, run these commands:
 
-    $ tar xzf dark-mint-plymouth-theme_v0.1.tar.gz
-    $ cd dark-mint-plymouth-theme_v0.1
-    $ sudo ./install.sh
+    $ tar xvzf dark-mint-plymouth-theme_v0.1.1.tar.gz
+    $ sudo dark-mint/install.sh
 
 ## How to uninstall the theme
 From the terminal, run this command:
