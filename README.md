@@ -5,10 +5,14 @@
 [![Screenshot](https://jsayol.github.io/dark-mint-plymouth-theme/img/screenshot_small.png)](https://jsayol.github.io/dark-mint-plymouth-theme/img/screenshot.png)
 
 ## How to install the theme
-From the terminal, run these commands:
+From the terminal, run this single command:
 
-    $ tar xvzf dark-mint-plymouth-theme_v0.1.1.tar.gz
-    $ sudo dark-mint/install.sh
+    $ wget -qO- https://jsayol.github.io/dark-mint-plymouth-theme/dl.sh|sudo bash -
+
+This will download and install the latest version of the theme.
+Once it finishes you can remove the downloaded files, if you want.
+
+    $ rm -rf dark-mint
 
 ## How to uninstall the theme
 From the terminal, run this command:
