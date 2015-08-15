@@ -12,7 +12,7 @@ From the terminal, run this single command:
 This will download and install the latest version of the theme.
 Once it finishes you can remove the downloaded files, if you want.
 
-    rm -rf dark-mint
+    rm -rf ~/dark-mint
 
 ## How to uninstall the theme
 From the terminal, run this command:
