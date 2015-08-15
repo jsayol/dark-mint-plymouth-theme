@@ -2,6 +2,8 @@
 
 *Dark Mint* is a theme for Plymouth, the boot splash tool for Linux. It's designed with Linux Mint in mind, but can be used in any installation that uses Plymouth.
 
+[![Screenshot](https://jsayol.github.io/dark-mint-plymouth-theme/img/screenshot_small.png)](https://jsayol.github.io/dark-mint-plymouth-theme/img/screenshot.png)
+
 ## How to install the theme
 From the terminal, run these commands:
 
