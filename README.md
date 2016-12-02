@@ -5,28 +5,23 @@
 [![Screenshot](https://jsayol.github.io/dark-mint-plymouth-theme/img/screenshot_small.png)](https://jsayol.github.io/dark-mint-plymouth-theme/img/screenshot.png)
 
 ## How to install the theme
-From the terminal, run this single command:
+From the terminal, run the install script:
 
-    wget -qO- https://jsayol.github.io/dark-mint-plymouth-theme/dl.sh|sudo bash -
-
-This will download and install the latest version of the theme.
-Once it finishes you can remove the downloaded files, if you want.
-
-    rm -rf ~/dark-mint
+    sudo ./install.sh
 
 ## How to uninstall the theme
 From the terminal, run this command:
 
-    sudo /lib/plymouth/themes/dark-mint/uninstall.sh
+    sudo /usr/share/plymouth/themes/dark-mint/uninstall.sh
 
 ## How to preview the theme
 After installing, you can preview the theme without having to reboot. Just run this command from the terminal:
 
-    sudo /lib/plymouth/themes/dark-mint/preview.sh
+    sudo /usr/share/plymouth/themes/dark-mint/preview.sh
 
 It runs for 2 seconds by default. You can optionally specify the number of seconds to run the preview:
 
-    sudo /lib/plymouth/themes/dark-mint/preview.sh 10
+    sudo /usr/share/plymouth/themes/dark-mint/preview.sh 10
 
 #### Note: previewing the theme requires *plymouth-x11*. To install the package:
 
