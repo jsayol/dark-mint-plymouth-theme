@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Dark Mint
+Description=Dark Mint theme by Josep Sayol
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/dark-mint
+ScriptFile=/usr/share/plymouth/themes/dark-mint/dark-mint.script
