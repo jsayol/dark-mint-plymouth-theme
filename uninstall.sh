@@ -8,11 +8,11 @@ if [ $EUID -ne 0 ]; then
 fi
 
 printf "Uninstalling '${THEME}' theme..."
-update-alternatives --quiet --remove default.plymouth /lib/plymouth/themes/${THEME}/theme.plymouth
+update-alternatives --quiet --remove default.plymouth /usr/share/plymouth/themes/${THEME}/${THEME}.plymouth
 printf ".. DONE\n"
 
 printf "Removing '${THEME}' theme files..."
-rm -rf /lib/plymouth/themes/${THEME}
+rm -rf /usr/share/plymouth/themes/${THEME}
 printf " DONE\n"
 
 printf "Selecting default theme..."
